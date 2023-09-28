@@ -1,0 +1,208 @@
+#grad1{
+
+    background-image: linear-gradient(to bottom, red, yellow)
+}
+
+#grad2{
+
+    background-image: linear-gradient(to right, red, yellow)
+}
+
+#grad3{
+
+    background-image: linear-gradient(to left, red, yellow)
+}
+
+#grad4{
+
+    background-image: linear-gradient(to top, red, yellow)
+}
+
+#grad5{
+    background-image: linear-gradient(45deg, red, yellow)
+}
+
+#grad6{
+    background-image: radial-gradient(red, yellow)
+}
+
+
+
+#CxVRM1{
+
+background-color: red;
+width: 100px;
+height: 100px;
+transform: translate(10px, 20px)
+} 
+
+#CxVRM2{
+
+background-color: red;
+width: 100px;
+height: 100px;
+transform: rotate(30deg)
+} 
+
+#CxVRM3{
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(60deg)
+    } 
+
+#CxVRM4{
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(60deg)
+    } 
+
+#CxVRM5{
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotateZ(60deg)
+    } 
+
+#CxVRM6{
+
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: scale(2,1)
+    } 
+
+#CxVRM7{
+
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: skew(20deg,10deg)
+    } 
+
+#CxVRM8{
+
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: skewX(20deg)
+    } 
+
+#CxVRM9{
+
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: skewY(20deg)
+    } 
+
+#CxVRM9{
+
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: skewY(20deg)
+    } 
+
+
+
+
+#Transicao1 {
+    width: 100px;
+    height: 100px;
+    transition: height 2s;   /* propriedade duração altura */
+    transition: width 2s;   /* propriedade duração largura */
+    transition: background-color 2s;
+    background-color: yellow;
+    border: solid 1px black;
+            }
+    
+#Transicao1:hover {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    }
+
+#Transicao2 {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;   
+    background-color: rgb(0, 51, 255);
+    border: solid 1px rgb(132, 18, 18);
+            }
+    
+#Transicao2:hover {
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    }
+
+#Transicao3 {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;   
+    background-color: green;
+            }
+    
+#Transicao3:hover {
+    transform: skewY(20deg);
+    }
+
+#Transicao4 {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;   
+    background-color: black;
+            }
+    
+#Transicao4:hover {
+    transform: rotate(90deg);
+    background-color: white;
+    }
+
+
+#Transicao5 {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;   
+    background-color: white;
+            }
+    
+#Transicao5:hover {
+    transform: rotate(1800deg);
+    font-style: oblique;
+    background-color: whitesmoke;
+    }
+
+#Animacao1 {
+    background-color: goldenrod;
+    width: 200px;
+    transform:translate(100px);   
+   
+            }
+    
+h1{
+
+    animation-duration:5s;
+    animation-name:Animacao;
+    animation-iteraion-count: infinite;
+}
+
+@keyframes Animacao{
+
+    0%{ width: 200px; }
+    25%{ width: 450px; }
+    50%{    width: 450px;
+            background-color: goldenrod; }
+    75%{ width: 450px;}
+    100%{ width: 200px;
+      background-color:greenyellow;}
+ }
+ 
+
+             
+     

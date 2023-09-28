@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+}
+#main {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+header,footer {
+    display: flex;
+    background-color: grey;
+    height: 200px;
+    width: 80%;
+    margin: 100px;
+
+}
+
+aside {
+    background-color: pink;
+    width: 20%;
+}
+
+nav {
+    background-color: orange;
+    width: 20%;
+}
+article {
+    background-color: rgb(197, 91, 109);
+    width: 60%;
+}
+article,nav,aside,header,footer {
+    padding: 1px;
+    margin: 1px;
+}

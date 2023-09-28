@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu primeiro projeto</title>
+        <style>
+           ol{
+            color: brown;
+            list-style-type: upper-roman;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            font-size: 22px;
+            font-weight: 500;
+            text-align: left;
+            line-height: 1.5;
+            background-image: url(testeImg.jpg);
+            background-size: cover;
+           }
+        </style>
+    </head>
+    <body>
+        <ol id="nav">
+            <li>
+                <a id="linkCoder" class="fonteVerde" href="https://www.coderhouse.com.br/">Coder House</a>
+            </li>
+            <li>
+                <a href="#listaOrdenada">listaOrdernada</a>
+            </li>
+            <li>
+                <a href="#listaNaoOrdenada">listaNaoOrdenada</a>
+            </li>
+            <li>
+                <a href="#listaDeDefinicao">listaDeDefinicao</a>
+            </li>
+            <li>
+                <a href="#tabela">tabela</a>
+            </li>
+            <li>
+                <a href="#formulario">formulario</a>
+            </li>
+            <li>
+                <a href="#imagem">imagem</a>
+            </li>
+            <li>
+                <a href="outraPagina.html"> Outra Pagina</a>
+            </li>
+            
+        </ol>
+        <span id="tituloReceita" class="fonteVermelha">Receita de macarrão instataneo</span>
+        <ol id="listaOrdenada" class="fonteVermelha">
+            <li>Abrir o pacote</li>
+            <ul>
+                <li>puxe a pontinha do pacote</li>
+                <li>coloque o dente</li>
+                <li>rasga o pacote</li>
+            </ul>
+            <li>coloca o macarrão dentro da panela</li>
+            <li>adicionar agua ate cobrir</li>
+            <li>ferver por 3 minutos</li>
+            <li>Seu macarrão esta pronto</li>
+        </ol>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+        <ul id="listaNaoOrdenada">
+            <li>inicio</li>
+            <li>cadastro</li>
+            <li>login</li>
+            <li>sobre nos</li>
+        </ul>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+        <dl id="listaDeDefinicao">
+            <dt>Meu titulo</dt>
+                <dd> Descrição do ponto 1</dd>
+            <dt>Meu titulo 2</dt>
+                <dd> Descrição do ponto 2</dd>
+        </dl>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+        <table id="tabela" border="1">
+            <tr>
+                <td> linha 1, coluna 1</td>
+                <td> linha 1, coluna 2</td>
+                <td> linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <td> linha 2, coluna 1</td>
+                <td> linha 2, coluna 2</td>
+                <td> linha 2, coluna 3</td>
+            </tr>
+            <tr>
+                <td> linha 3, coluna 1</td>
+                <td> linha 3, coluna 2</td>
+                <td> linha 3, coluna 3</td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        
+        <form id="formulario" action="" id="formulario">
+            <label for="nome">Nome : </label>
+            <input required type="text" name="nome" id="nome" placeholder="Nome">
+            <br>
+            <label for="idade">Idade : </label>
+            <input type="number" name="idade" id="idade">
+            <br>
+            <label for="sexo">Sexo : </label>
+            <input type="radio" name="sexo" id="sexo" value="Masculino"> <label for="sexo">Masculino</label>
+            <input type="radio" name="sexo" id="sexo" value="Feminino"> <label for="sexo">Femenino</label>
+            <input type="radio" name="sexo" id="sexo" value="Outro"> <label for="sexo">Outro</label>
+            <br>
+            <input type="checkbox" name="termos" id="termos">
+            <label for="termos">Aceito os termos do serviço</label>
+            <br>
+            <label for="profissao"></label>
+            <select name="profissao" id="profissao">
+                <option value="Professor"> Professor </option>
+                <option value="Dentista"> Dentista </option>
+                <option value="Pedreiro"> Pedreiro </option>
+            </select>
+            <br>
+            <input type="button" value="Enviar">
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+            <button>Enviar</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+        <a href="https://google.com">
+            <img src="CoderImagem.png" alt="imagem da coder" id="imagem" title="imagem da coder">
+        </a>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+        <iframe src="outraPagina.html" width=290 height=250>
+            Texto para quando o navegador não conhece a tag iframe
+        </iframe>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+    
+        <table border="1">
+            <tr>
+                <th>Frutas</th>
+                <th>Verduras</th>
+                <th>Legumes</th>
+            </tr>
+            <tr>
+                <td>Maça</td>
+                <td>Alfaçe</td>
+                <td>Amendoim</td>
+            </tr>
+            <tr>
+                <td>laranja</td>
+                <td>couve</td>
+                <td>trigo</td>
+            </tr>
+        </table>
+    </body>
+</html>

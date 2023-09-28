@@ -1,0 +1,100 @@
+
+.titulo:not(.algumaCoisa){
+    background-color: red;
+    display: inline;
+}
+
+#pai{
+    background-color: gray;
+    width: 400px;
+    height: 250px;
+}
+
+#pai:hover{
+    background-color: red;
+    color: aqua;
+}
+#pai a:visited{
+    color: green;
+}
+a:active{
+    color: green;
+}
+
+#nome{
+    color: red;
+}
+#nome:focus{
+    color: green;
+    background-color: yellow;
+}
+
+ul li:first-child{
+    color: red;
+}
+ul li:last-child{
+    color: green;
+}
+ul li:nth-child(even){
+    color: yellow;
+}
+ol li:first-of-type{
+    color: red;
+}
+ol li:last-of-type{
+    color: green;
+}
+ol li:nth-of-type(2n){
+    color: blue;
+}
+
+#profissao option:checked{
+    color: green;
+    background-color: yellow;
+}
+
+:disabled{
+    background-color: black;
+}
+#email:valid{
+    color: green;
+}
+#email:invalid{
+    color: red;
+}
+#nome:required{
+    background-color: gray;
+}
+#paragrafo::after{
+    content: " Final do conteudo";
+    color: red;
+}
+
+#paragrafo::before{
+    content: " Inicio do conteudo";
+    color: red;
+}
+
+#paragrafo::first-letter {
+    font-size: 70px;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: -20px;
+  }
+
+#paragrafo::first-line{
+    color: green;
+}
+::selection{
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+ol li::marker{
+    color: green;
+}
+::placeholder{
+    color: red;
+}
+
+
+

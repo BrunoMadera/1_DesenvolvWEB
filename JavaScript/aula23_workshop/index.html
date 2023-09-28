@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+    <div class="input-group flex-nowrap">
+        <span class="input-group-text" > Nota </span>
+        <input type="number" class="form-control" id="nota" placeholder="Inclua a Nota aqui" aria-label="nota1" aria-describedby="addon-wrapping">
+      <br>
+    </div>
+
+    <div class="input-group flex-nowrap">
+        <span class="input-group-text" > Peso  </span>
+        <input type="number" class="form-control" id="peso" placeholder="Inclua o Peso aqui" aria-label="peso1" aria-describedby="addon-wrapping">
+      <br>
+    </div>
+    
+</div>
+
+<br>
+
+    <button type="button" class="btn btn-info" onclick=incluir() > Incluir notas e pesos</button>
+  
+    <button type="button" class="btn btn-warning" onclick=calcular() > Calcular</button>
+
+    <button type="button" class="btn btn-danger" onclick=limpar() > Limpar</button>
+
+    <br>
+    <br>
+    
+    Média Ponderada: <div id="mostrarresultado" style="color: white; background-color: blue; text-decoration-style: dotted;">  </div>
+
+
+</body>
+<script src='java.js'></script>
+</html>

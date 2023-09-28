@@ -1,0 +1,61 @@
+.pai{
+
+    border: solid;
+    border-color: red;
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: baseline;
+align-content: space-around;
+align-content: stretch;
+justify-content: center;
+
+}
+
+.filho{
+
+    border: dotted;
+    width: 100px;
+    height: 200px;
+    margin: 5px;
+
+}
+
+    #f1{
+        background-color: aqua;
+        border-color: black
+
+    }
+
+    #f2{
+        background-color: lawngreen;
+        border-color: black;
+    }
+    #f3{
+        background-color: rebeccapurple;
+        border-color: black;
+        color: white;
+        order: -2
+    }
+    #f4{
+        background-color: hotpink;
+        border-color: black;
+    }
+    #f5{
+        background-color: wheat;
+        border-color: black;
+        order: -1
+    }
+
+
+h1{
+    text-align: center;
+    font-weight: 200;
+}

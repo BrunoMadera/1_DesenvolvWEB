@@ -1,0 +1,17 @@
+.pai{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    flex-wrap: wrap;
+    background-color: red;
+    justify-content: flex-start;
+}
+.filho{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+}

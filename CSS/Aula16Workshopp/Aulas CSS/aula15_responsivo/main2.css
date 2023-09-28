@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "box1 box1" 
+    "box2 box2" 
+    "box3 box3";
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "box1 box1" 
+        "box2 box3" 
+        ". .";
+    }
+}
+
+
+
+
+.box-1 {
+    grid-area: box1;
+    background-color: pink;
+    border-radius: 5px;
+    border: black solid;
+
+}
+
+.box-2 {
+    grid-area: box2;
+    background-color: violet;
+    border-radius: 5px;
+    border: black solid;
+}
+
+.box-3 {
+    grid-area: box3;
+    background-color: pink;
+    border-radius: 5px;
+    border: black solid;
+}

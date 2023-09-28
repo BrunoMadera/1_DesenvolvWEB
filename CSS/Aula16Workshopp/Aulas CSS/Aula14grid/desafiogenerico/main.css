@@ -1,0 +1,65 @@
+#grade {
+    display: grid;
+    grid-template-areas:
+      "b1 b1 b2 b2 b2"
+      "b1 b1 b3 b3 b4"
+      "b5 b5 b3 b3 b6";
+
+    grid-template-rows: 50px 50px 50px 50px 50px; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 5px;
+          
+}
+ .border{
+   border: 2px solid black;
+ }
+
+ #quadro1 {
+    grid-area: b1;
+    background-color: green;
+    color: white;
+     border-radius: 15px;
+     text-align:center;    
+   }
+
+#quadro2 {
+   grid-area: b2;
+   background-color: blue;
+   color: white;
+   border-radius: 15px;
+   text-align:center; 
+   }
+
+#quadro3 {
+   grid-area: b3;
+   background-color: orange;
+   color: white;
+   border-radius: 15px;
+   text-align:center;
+  
+   }
+
+#quadro4 {
+   grid-area: b4;
+   background-color: paleturquoise;
+   color: black;
+   border-radius: 15px;
+   text-align:center;
+      }
+
+#quadro5 {
+   grid-area: b5;
+   background-color: pink;
+   color: black;
+   border-radius: 15px;
+   text-align:center; 
+ 
+   }
+
+#quadro6 {
+   grid-area: b6;
+   background-color: brown;
+   color: white;
+   border-radius: 15px;
+   text-align:center;
+      }

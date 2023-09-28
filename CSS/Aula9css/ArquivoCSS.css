@@ -1,0 +1,33 @@
+
+* {
+    Margin:10px;
+    padding:02px;
+ }
+ 
+ .desafio1{
+    
+    color: orange;
+    font-style: oblique;
+    background-color: rgb(22, 114, 22);
+       
+}
+
+#lista1{
+    
+    margin: 25px;
+    padding:5px;
+    list-style: lower-alpha;
+    color: 	#f9f9ff;
+    font-style: italic;
+    background-color: rgb(113, 154, 113);
+
+}
+
+#lista2{
+    margin: 25px;
+    padding:5px;
+    list-style: circle outside;
+    color: 	#636392;
+    font-style: normal;
+    background: lightblue;
+}

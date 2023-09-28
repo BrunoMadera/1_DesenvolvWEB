@@ -1,0 +1,23 @@
+#gradiente{
+    background-color: rgb(203, 196, 196);
+    width: 400px;
+    height: 250px;
+    margin-top: 100px;
+    transform: skew(0deg,0deg);
+    z-index: 1;
+}
+
+h1{
+    animation-duration: 4s;
+    animation-name: animacao;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+
+.pai{
+    background-color: green;
+    width: 400px;
+    height: 250px;
+    border: dashed 5px blue;
+   
+}
+.titulo{
+    background-color: orange;
+    padding-left: 30px;
+    width: 50%;
+}
+.conteudo{
+    background-color: aqua;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+
+#span1{
+    background-color: orange;
+    position: absolute;
+    z-index: 200;
+}
+#span2{
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+}
+#span3{
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+}

@@ -1,0 +1,38 @@
+#grade {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav Conteudo"
+      "nav footer";
+    grid-template-rows: 100px 1fr; 
+    grid-template-columns: 15% 80%;
+    justify-content: center;
+ }
+ .border {
+    border: 1px solid black;
+ }
+ header {
+    grid-area: header;
+    background-color: rgb(4, 8, 48);
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+
+ }
+ footer {
+    grid-area: footer;
+    background-color: green;
+ }
+  
+ nav {
+    grid-area: nav;
+    background-color: yellow;
+    
+ }
+ aside {
+    grid-area: Conteudo;
+    height: 50px;
+    background-color: orange;
+
+ }
+  

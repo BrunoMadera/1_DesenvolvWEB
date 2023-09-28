@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+}
+#main {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+nav {
+    background-color: orange;
+    width:100%;
+    flex-grow: 5;
+    justify-content: flex-start;
+
+    
+}
+
+header {
+    background-color: navy;
+    height: 200px;
+    width: 100%;
+    color: white;
+    justify-content: flex-end;
+    
+}
+
+footer {
+    background-color: lightskyblue;
+    height: 200px;
+}
+
+aside {
+    background-color: pink;
+    width: 20%;
+}
+
+
+
+article {
+    background-color: purple;
+    width: 60%;
+    color: white;
+    }
+article,nav,aside,header,footer {
+    padding: 1px;
+    margin: 1px;
+}
